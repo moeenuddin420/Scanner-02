@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-ZONE Control Center</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { background: #020617; color: white; font-family: sans-serif; }
+        .card { background: #0f172a; border: 1px solid rgba(255,255,255,0.05); transition: 0.3s; }
+        .card:hover { border-color: #3b82f6; transform: translateY(-5px); }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-6">
+    <div class="max-w-md w-full">
+        <div class="text-center mb-10">
+            <h1 class="text-3xl font-black tracking-tighter mb-2">G-ZONE <span class="text-blue-500">SENTINEL</span></h1>
+            <p class="text-slate-500 text-sm uppercase tracking-widest font-bold">System Command Center</p>
+        </div>
+
+        <div class="space-y-4">
+            <!-- Link to Scanner -->
+            <a href="scanner.html" class="card block p-6 rounded-3xl">
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 bg-rose-500/10 text-rose-500 rounded-2xl flex items-center justify-center text-xl">
+                        <i class="fa fa-radar"></i>
+                    </div>
+                    <div>
+                        <h2 class="font-bold text-lg">Sentinel Scanner</h2>
+                        <p class="text-slate-500 text-xs">অ্যাকাউন্ট চেক এবং অটো-ব্লক সিস্টেম চালু করুন।</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Link to Manager -->
+            <a href="manager.html" class="card block p-6 rounded-3xl">
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 bg-blue-500/10 text-blue-500 rounded-2xl flex items-center justify-center text-xl">
+                        <i class="fa fa-user-shield"></i>
+                    </div>
+                    <div>
+                        <h2 class="font-bold text-lg">Intelligence Manager</h2>
+                        <p class="text-slate-500 text-xs">রিপোর্ট দেখতে এবং নোটিফিকেশন পেতে লগইন করুন।</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="mt-10 text-center text-[10px] text-slate-700 font-bold uppercase tracking-[0.3em]">
+            Authorized Access Only • 2025
+        </div>
+    </div>
+</body>
+</html>
