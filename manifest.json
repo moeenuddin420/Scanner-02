@@ -1,7 +1,7 @@
 {
   "name": "G-Zone Intelligence Manager",
   "short_name": "G-Manager",
-  "start_url": "manager.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#020617",
   "theme_color": "#ef4444",
